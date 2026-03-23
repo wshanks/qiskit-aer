@@ -56,5 +56,23 @@ macro(_import_aer_system_dependency package version)
 	string(TOLOWER ${package} PACKAGE_LOWER) # Conan use lowercase for every lib
 	add_library(AER_DEPENDENCY_PKG::${PACKAGE_LOWER} INTERFACE IMPORTED)
 	target_link_libraries(AER_DEPENDENCY_PKG::${PACKAGE_LOWER} PUBLIC INTERFACE ${package})
+
+	# Special-case spdlog to force header-only consumption.
+	if(PACKAGE_LOWER STREQUAL "spdlog")
+		# Prefer the header-only target if the package provides it.
+		if(TARGET spdlog::spdlog_header_only)
+			target_link_libraries(AER_DEPENDENCY_PKG::${PACKAGE_LOWER} INTERFACE spdlog::spdlog_header_only)
+		# Fallback if only the compiled target exists (some distros/packaging).
+		elseif(TARGET spdlog::spdlog)
+			target_link_libraries(AER_DEPENDENCY_PKG::${PACKAGE_LOWER} INTERFACE spdlog::spdlog)
+		else()
+			# Last resort: keep old behavior.
+			target_link_libraries(AER_DEPENDENCY_PKG::${PACKAGE_LOWER} INTERFACE ${package})
+		endif()
+	else()
+		target_link_libraries(AER_DEPENDENCY_PKG::${PACKAGE_LOWER} INTERFACE ${package})
+	endif()
+
+
 	message(STATUS "Using system-provided ${PACKAGE_LOWER} library")
 endmacro()
