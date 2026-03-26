@@ -41,12 +41,12 @@ using namespace AER;
 template <typename MODULE>
 void bind_aer_circuit(MODULE m) {
 
-  py::enum_<Operations::UnaryOp>(m, "AerUnaryOp", py::arithmetic())
+  py::enum_<Operations::UnaryOp>(m, "AerUnaryOp")
       .value("BitNot", Operations::UnaryOp::BitNot)
       .value("LogicNot", Operations::UnaryOp::LogicNot)
       .export_values();
 
-  py::enum_<Operations::BinaryOp>(m, "AerBinaryOp", py::arithmetic())
+  py::enum_<Operations::BinaryOp>(m, "AerBinaryOp")
       .value("BitAnd", Operations::BinaryOp::BitAnd)
       .value("BitOr", Operations::BinaryOp::BitOr)
       .value("BitXor", Operations::BinaryOp::BitXor)
