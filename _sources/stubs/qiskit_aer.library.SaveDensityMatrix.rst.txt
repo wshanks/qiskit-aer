@@ -1,0 +1,45 @@
+﻿
+
+SaveDensityMatrix
+====================================
+
+.. currentmodule:: qiskit_aer.library
+
+.. autoclass:: SaveDensityMatrix
+   :no-members:
+   :no-inherited-members:
+   :no-special-members:
+   :show-inheritance:
+
+
+   
+   .. rubric:: Attributes
+      
+   .. autoattribute:: SaveDensityMatrix.base_class
+   .. autoattribute:: SaveDensityMatrix.decompositions
+   .. autoattribute:: SaveDensityMatrix.definition
+   .. autoattribute:: SaveDensityMatrix.label
+   .. autoattribute:: SaveDensityMatrix.mutable
+   .. autoattribute:: SaveDensityMatrix.name
+   .. autoattribute:: SaveDensityMatrix.num_clbits
+   .. autoattribute:: SaveDensityMatrix.num_qubits
+   .. autoattribute:: SaveDensityMatrix.params
+   
+
+
+
+   
+   .. rubric:: Methods
+   
+   .. automethod:: SaveDensityMatrix.add_decomposition
+   .. automethod:: SaveDensityMatrix.broadcast_arguments
+   .. automethod:: SaveDensityMatrix.copy
+   .. automethod:: SaveDensityMatrix.inverse
+   .. automethod:: SaveDensityMatrix.is_parameterized
+   .. automethod:: SaveDensityMatrix.repeat
+   .. automethod:: SaveDensityMatrix.reverse_ops
+   .. automethod:: SaveDensityMatrix.soft_compare
+   .. automethod:: SaveDensityMatrix.to_mutable
+   .. automethod:: SaveDensityMatrix.validate_parameter
+
+   

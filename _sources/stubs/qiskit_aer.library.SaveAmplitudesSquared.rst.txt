@@ -1,0 +1,45 @@
+﻿
+
+SaveAmplitudesSquared
+========================================
+
+.. currentmodule:: qiskit_aer.library
+
+.. autoclass:: SaveAmplitudesSquared
+   :no-members:
+   :no-inherited-members:
+   :no-special-members:
+   :show-inheritance:
+
+
+   
+   .. rubric:: Attributes
+      
+   .. autoattribute:: SaveAmplitudesSquared.base_class
+   .. autoattribute:: SaveAmplitudesSquared.decompositions
+   .. autoattribute:: SaveAmplitudesSquared.definition
+   .. autoattribute:: SaveAmplitudesSquared.label
+   .. autoattribute:: SaveAmplitudesSquared.mutable
+   .. autoattribute:: SaveAmplitudesSquared.name
+   .. autoattribute:: SaveAmplitudesSquared.num_clbits
+   .. autoattribute:: SaveAmplitudesSquared.num_qubits
+   .. autoattribute:: SaveAmplitudesSquared.params
+   
+
+
+
+   
+   .. rubric:: Methods
+   
+   .. automethod:: SaveAmplitudesSquared.add_decomposition
+   .. automethod:: SaveAmplitudesSquared.broadcast_arguments
+   .. automethod:: SaveAmplitudesSquared.copy
+   .. automethod:: SaveAmplitudesSquared.inverse
+   .. automethod:: SaveAmplitudesSquared.is_parameterized
+   .. automethod:: SaveAmplitudesSquared.repeat
+   .. automethod:: SaveAmplitudesSquared.reverse_ops
+   .. automethod:: SaveAmplitudesSquared.soft_compare
+   .. automethod:: SaveAmplitudesSquared.to_mutable
+   .. automethod:: SaveAmplitudesSquared.validate_parameter
+
+   

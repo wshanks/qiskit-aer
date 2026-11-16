@@ -1,0 +1,45 @@
+﻿
+
+SaveStatevector
+==================================
+
+.. currentmodule:: qiskit_aer.library
+
+.. autoclass:: SaveStatevector
+   :no-members:
+   :no-inherited-members:
+   :no-special-members:
+   :show-inheritance:
+
+
+   
+   .. rubric:: Attributes
+      
+   .. autoattribute:: SaveStatevector.base_class
+   .. autoattribute:: SaveStatevector.decompositions
+   .. autoattribute:: SaveStatevector.definition
+   .. autoattribute:: SaveStatevector.label
+   .. autoattribute:: SaveStatevector.mutable
+   .. autoattribute:: SaveStatevector.name
+   .. autoattribute:: SaveStatevector.num_clbits
+   .. autoattribute:: SaveStatevector.num_qubits
+   .. autoattribute:: SaveStatevector.params
+   
+
+
+
+   
+   .. rubric:: Methods
+   
+   .. automethod:: SaveStatevector.add_decomposition
+   .. automethod:: SaveStatevector.broadcast_arguments
+   .. automethod:: SaveStatevector.copy
+   .. automethod:: SaveStatevector.inverse
+   .. automethod:: SaveStatevector.is_parameterized
+   .. automethod:: SaveStatevector.repeat
+   .. automethod:: SaveStatevector.reverse_ops
+   .. automethod:: SaveStatevector.soft_compare
+   .. automethod:: SaveStatevector.to_mutable
+   .. automethod:: SaveStatevector.validate_parameter
+
+   

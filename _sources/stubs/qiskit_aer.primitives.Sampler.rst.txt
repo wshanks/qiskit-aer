@@ -1,0 +1,29 @@
+﻿
+
+Sampler
+=============================
+
+.. currentmodule:: qiskit_aer.primitives
+
+.. autoclass:: Sampler
+   :no-members:
+   :no-inherited-members:
+   :no-special-members:
+   :show-inheritance:
+
+
+   
+   .. rubric:: Attributes
+      
+   .. autoattribute:: Sampler.options
+   
+
+
+
+   
+   .. rubric:: Methods
+   
+   .. automethod:: Sampler.run
+   .. automethod:: Sampler.set_options
+
+   

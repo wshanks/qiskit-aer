@@ -1,0 +1,54 @@
+﻿
+
+UnitarySimulator
+===========================
+
+.. currentmodule:: qiskit_aer
+
+.. autoclass:: UnitarySimulator
+   :no-members:
+   :no-inherited-members:
+   :no-special-members:
+   :show-inheritance:
+
+
+   
+   .. rubric:: Attributes
+      
+   .. autoattribute:: UnitarySimulator.coupling_map
+   .. autoattribute:: UnitarySimulator.dt
+   .. autoattribute:: UnitarySimulator.dtm
+   .. autoattribute:: UnitarySimulator.instruction_durations
+   .. autoattribute:: UnitarySimulator.instructions
+   .. autoattribute:: UnitarySimulator.max_circuits
+   .. autoattribute:: UnitarySimulator.meas_map
+   .. autoattribute:: UnitarySimulator.num_qubits
+   .. autoattribute:: UnitarySimulator.operation_names
+   .. autoattribute:: UnitarySimulator.operations
+   .. autoattribute:: UnitarySimulator.options
+   .. autoattribute:: UnitarySimulator.provider
+   .. autoattribute:: UnitarySimulator.target
+   .. autoattribute:: UnitarySimulator.version
+   .. autoattribute:: UnitarySimulator.name
+   .. autoattribute:: UnitarySimulator.description
+   .. autoattribute:: UnitarySimulator.online_date
+   .. autoattribute:: UnitarySimulator.backend_version
+   
+
+
+
+   
+   .. rubric:: Methods
+   
+   .. automethod:: UnitarySimulator.available_devices
+   .. automethod:: UnitarySimulator.available_methods
+   .. automethod:: UnitarySimulator.clear_options
+   .. automethod:: UnitarySimulator.configuration
+   .. automethod:: UnitarySimulator.properties
+   .. automethod:: UnitarySimulator.qubit_properties
+   .. automethod:: UnitarySimulator.run
+   .. automethod:: UnitarySimulator.set_max_qubits
+   .. automethod:: UnitarySimulator.set_option
+   .. automethod:: UnitarySimulator.set_options
+
+   

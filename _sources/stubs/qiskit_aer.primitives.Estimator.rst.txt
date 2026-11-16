@@ -1,0 +1,30 @@
+﻿
+
+Estimator
+===============================
+
+.. currentmodule:: qiskit_aer.primitives
+
+.. autoclass:: Estimator
+   :no-members:
+   :no-inherited-members:
+   :no-special-members:
+   :show-inheritance:
+
+
+   
+   .. rubric:: Attributes
+      
+   .. autoattribute:: Estimator.approximation
+   .. autoattribute:: Estimator.options
+   
+
+
+
+   
+   .. rubric:: Methods
+   
+   .. automethod:: Estimator.run
+   .. automethod:: Estimator.set_options
+
+   

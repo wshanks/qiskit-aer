@@ -1,0 +1,45 @@
+﻿
+
+SaveClifford
+===============================
+
+.. currentmodule:: qiskit_aer.library
+
+.. autoclass:: SaveClifford
+   :no-members:
+   :no-inherited-members:
+   :no-special-members:
+   :show-inheritance:
+
+
+   
+   .. rubric:: Attributes
+      
+   .. autoattribute:: SaveClifford.base_class
+   .. autoattribute:: SaveClifford.decompositions
+   .. autoattribute:: SaveClifford.definition
+   .. autoattribute:: SaveClifford.label
+   .. autoattribute:: SaveClifford.mutable
+   .. autoattribute:: SaveClifford.name
+   .. autoattribute:: SaveClifford.num_clbits
+   .. autoattribute:: SaveClifford.num_qubits
+   .. autoattribute:: SaveClifford.params
+   
+
+
+
+   
+   .. rubric:: Methods
+   
+   .. automethod:: SaveClifford.add_decomposition
+   .. automethod:: SaveClifford.broadcast_arguments
+   .. automethod:: SaveClifford.copy
+   .. automethod:: SaveClifford.inverse
+   .. automethod:: SaveClifford.is_parameterized
+   .. automethod:: SaveClifford.repeat
+   .. automethod:: SaveClifford.reverse_ops
+   .. automethod:: SaveClifford.soft_compare
+   .. automethod:: SaveClifford.to_mutable
+   .. automethod:: SaveClifford.validate_parameter
+
+   
